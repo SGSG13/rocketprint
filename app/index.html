@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Rocket Print | Шелкография и мерч</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Шелкография и мерч">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <meta name="theme-color" content="#1b1c1e">
+    <meta name="msapplication-navbutton-color" content="#1b1c1e">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1b1c1e">
+
+    <style>body { opacity: 0; overflow-x: hidden; } html {  background: #1b1c1e; }</style>
+
+</head>
+
+<body>
+
+<div class="preloader"><div class="pulse"></div></div>
+
+<span id="menu-button-mob" class="nav-button">
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </span>
+
+<header id="main">
+    <div class="main">
+        <div id="top-menu"  class="top-menu-box">
+            <div class="menu-cont">
+                <div class="main-button-close center-block">
+                    <span class="closed closed-menu"></span>
+                </div>
+                <ul class="top-menu">
+                    <li><a href="#items" class="menu-to">Услуги</a></li>
+                    <li><a href="#why-us" class="menu-to">Преимущества</a></li>
+                    <li><a href="#portfolio" class="menu-to">Портфолио</a></li>
+                    <li><a href="#reviews" class="menu-to">Отзывы</a></li>
+                    <li><a href="#footer" class="menu-to">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="top-order"  class="top-menu-box">
+            <div class="menu-cont">
+                <div class="main-button-close center-block">
+                    <span class="closed closed-modal"></span>
+                </div>
+                <div class="order-text-done">
+                    <h3>Ваше сообщение отпралено!</h3>
+                </div>
+               <div class="order-text">
+                   <h3>Оставить заявку</h3>
+                   <p>
+                       Оставьте свой номер телефона и мы свяжемся с вами<br>
+                       в ближайшее время, чтобы обсудить ваш заказ.
+                   </p>
+                   <form class="order-form" method="post">
+                       <input type="text" name="name" id="name-form" placeholder="Ваше имя" required>
+                       <input type="text" name="phonee" id="phone-form" placeholder="Ваш телефон" required>
+                       <button type="submit" id="but-hide"></button>
+                       <a href="#" class="order-submit">Жду звонка</a>
+                   </form>
+               </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <div id="menu-button-desc" class="main-button-menu">
+                            <span class="nav-button">
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </span>
+                        <span class="menu-text">Меню</span>
+                    </div>
+                </div>
+                <div id="work-phone-mob" class="col-lg-4 col-md-3 col-sm-4 col-xs-8">
+                    <div class="main-phone-work">
+                        <div class="main-phone">
+                            <a href="tel:+375255305428">
+                                <span>+375 (25) 530 54 28</span>
+                            </a>
+                        </div>
+                        <div class="main-work">
+                            <span>Работаем без выходных<br> с 9:00 до 20:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="main-logo">
+                        <img src="img/main-logo.png" class="img-responsive center-block" alt="Rocket Print">
+                    </div>
+                </div>
+                <div id="work-phone-desc" class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <div class="main-phone-work">
+                        <div class="main-phone">
+                            <a href="tel:+375255305428">
+                                <span>+375 (25) 530 54 28</span>
+                            </a>
+                        </div>
+                        <div class="main-work">
+                            <span>Работаем без выходных с 9:00 до 20:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main-block center-block">
+                        <div class="main-text">
+                            <h1>ШЕЛКОГРАФИЯ И МЕРЧ</h1>
+                            <p>Печать на текстиле, футболках, толстовках, свитшотах, худи, спецодежде и т.д., методом
+                                шелкографии.<br>
+                                Изготовление кружек и значков.
+                            </p>
+                        </div>
+                        <div class="main-rocket center-block">
+                                <span>
+                                    <img src="img/main-rocket.png" alt="rocket">
+                                </span>
+                        </div>
+                        <div class="text-under-rocket center-block">
+                            <span>Разработка дизайна для вашего мерча.</span>
+                        </div>
+                        <div class="order-call center-block">
+                            <a href="#" class="order-button">Оставить заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="items">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="t-shirt item-container">
+                <div class="item">
+                    <h4>rocket t-shirt</h4>
+                    <h3>Шелкография</h3>
+                    <div class="more center-block">
+                        <span>Подробнее</span>
+                    </div>
+                </div>
+                <div class="item-caption">
+                    <h4>Шелкография</h4>
+                    <p>Технология, позволяющая добиться максимально ровного красящего слоя, блеска и яркости цвета. Все,
+                        что выглядит красиво и необычно в полиграфии, как правило, связано именно с этим видом
+                        печати. </p>
+                    <ul>
+                        <li><span>Краски, способные выдержать любые погодные условия</span></li>
+                        <li><span>Печать "светлым по темному"</span></li>
+                        <li><span>Возможность допечатать изображение на уже готовом продукте</span></li>
+                        <li><span>Тиражность от 30 шт</span></li>
+                        <li><span>Выборочная лакировка элементов рисунка</span></li>
+                        <li><span>Нанесения изображения на самые различные материалы</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="mug item-container">
+                <div class="item">
+                    <h4>rocket mug</h4>
+                    <h3>Печать на кружках</h3>
+                    <div class="more center-block">
+                        <span>Подробнее</span>
+                    </div>
+                </div>
+                <div class="item-caption">
+                    <h4>Печать на кружках</h4>
+                    <p>Печать изображений на кружках разных расцветок и размера </p>
+                    <ul>
+                        <li><span>Любой тираж </span></li>
+                        <li><span>Изготовление от 1 дня</span></li>
+                        <li><span>Индивидуальный подход к каждому</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="pin item-container">
+                <div class="item">
+                    <h4>rocket pin</h4>
+                    <h3>Изготовление значков</h3>
+                    <div class="more more-pin center-block">
+                        <span>Подробнее</span>
+                    </div>
+                </div>
+                <div class="item-caption">
+                    <h4>Изготовление значков</h4>
+                    <p>Значки диаметром 25 и 56 мм <br>Открывашки-магнит (круглые и овальные) </p>
+                    <ul>
+                        <li><span>Любой тираж </span></li>
+                        <li><span>Изготовление от 1 дня</span></li>
+                        <li><span>Индивидуальный подход к каждому</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="why-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-block center-block">
+                    <h2>Почему именно мы?</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 animated-fadeIn d1s">
+                <div class="icon-container">
+                    <div class="img-icon">
+                        <img src="img/faster.png" class="img-responsive" alt="Быстрая обработка заказов">
+                    </div>
+                    <div class="text-icon">
+                        <span class="orange">быстрая</span>
+                        <span>обработка заказов</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 animated-fadeIn d12s">
+                <div class="icon-container">
+                    <div class="img-icon">
+                        <img src="img/clockwise-rotation.png" class="img-responsive"
+                             alt="Кратчайшие сроки изготовления">
+                    </div>
+                    <div class="text-icon">
+                        <span class="orange">кратчайшие</span>
+                        <span>сроки изготовления</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 animated-fadeIn d14s">
+                <div class="icon-container">
+                    <div class="img-icon">
+                        <img src="img/individual.png" class="img-responsive"
+                             alt=">Индивидуальный подход к каждому партнеру">
+                    </div>
+                    <div class="text-icon">
+                        <span class="orange">индивидуальный</span>
+                        <span>подход к каждому партнеру</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 animated-fadeIn d16s">
+                <div class="icon-container">
+                    <div class="img-icon">
+                        <img src="img/delivery.png" class="img-responsive" alt="Доставка по всему СНГ">
+                    </div>
+                    <div class="text-icon">
+                        <span class="orange">доставка</span>
+                        <span>по всему СНГ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="title-block title-margin center-block">
+                <h2>Наши работы</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/1.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/1-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Майки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/2.jpg" class="fancybox" data-fancybox-group="group" >
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/2-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Значки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/3.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/3-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Майки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/4.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/4-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Майки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/5.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/5-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Кружки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/6.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/6-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Майки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/7.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/7-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Значки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/8.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/8-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Майки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/9.jpg" class="fancybox" data-fancybox-group="group" >
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/9-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Майки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/10.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/10-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Майки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/11.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/11-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Кружки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/12.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/12-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Значки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id='portfolio-2' class="collapse">
+        <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/13.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/13-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Рубашки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/14.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/14-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Майки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/15.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/15-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Свитшоты</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/16.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/16-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Свитшоты</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/17.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/17-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Копилки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <a href="img/portfolio/18.jpg" class="fancybox" data-fancybox-group="group">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="img/portfolio/18-min.jpg" alt="Портфолио">
+                    <div class="portfolio-caption">
+                        <div class="port-more">
+                            <span>Значки</span>
+                            <!--<p>для группы Messed Up</p>-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <a href="img/portfolio/19.jpg" class="fancybox" data-fancybox-group="group">
+                    <div class="portfolio-item">
+                        <img class="img-responsive" src="img/portfolio/19-min.jpg" alt="Портфолио">
+                        <div class="portfolio-caption">
+                            <div class="port-more">
+                                <span>Майки</span>
+                                <!--<p>для группы Messed Up</p>-->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <a href="img/portfolio/20.jpg" class="fancybox" data-fancybox-group="group">
+                    <div class="portfolio-item">
+                        <img class="img-responsive" src="img/portfolio/20-min.jpg" alt="Портфолио">
+                        <div class="portfolio-caption">
+                            <div class="port-more">
+                                <span>Значки</span>
+                                <!--<p>для группы Messed Up</p>-->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <a href="img/portfolio/21.jpg" class="fancybox" data-fancybox-group="group">
+                    <div class="portfolio-item">
+                        <img class="img-responsive" src="img/portfolio/21-min.jpg" alt="Портфолио">
+                        <div class="portfolio-caption">
+                            <div class="port-more">
+                                <span>Значки</span>
+                                <!--<p>для группы Messed Up</p>-->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <a href="img/portfolio/22.jpg" class="fancybox" data-fancybox-group="group">
+                    <div class="portfolio-item">
+                        <img class="img-responsive" src="img/portfolio/22-min.jpg" alt="Портфолио">
+                        <div class="portfolio-caption">
+                            <div class="port-more">
+                                <span>Майки</span>
+                                <!--<p>для группы Messed Up</p>-->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <a href="img/portfolio/23.jpg" class="fancybox" data-fancybox-group="group">
+                    <div class="portfolio-item">
+                        <img class="img-responsive" src="img/portfolio/23-min.jpg" alt="Портфолио">
+                        <div class="portfolio-caption">
+                            <div class="port-more">
+                                <span>Значки</span>
+                                <!--<p>для группы Messed Up</p>-->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <a href="img/portfolio/24.jpg" class="fancybox" data-fancybox-group="group">
+                    <div class="portfolio-item">
+                        <img class="img-responsive" src="img/portfolio/24-min.jpg" alt="Портфолио">
+                        <div class="portfolio-caption">
+                            <div class="port-more">
+                                <span>Майки</span>
+                                <!--<p>для группы Messed Up</p>-->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row port-h">
+        <div class="col-lg-12 text-center">
+            <div class="more-portfolio center-block">
+                <a href="#" class="more-button" data-toggle="collapse" data-target="#portfolio-2">Смотреть больше
+                    работ</a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section id="reviews">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-block title-margin center-block">
+                    <h2>Отзывы</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mb24">
+            <div class="col-lg-6 col-md-6 col-sm-12 animated-fadeIn d1s">
+                <div class="review">
+                    <div class="border-review border1"></div>
+                    <div class="border-review border2"></div>
+                    <div class="border-review border3"></div>
+                    <div class="border-review border4"></div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="img-review">
+                                <img class="img-responsive" src="img/reviews/Gosha.jpg" alt="Отзыв">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                            <div class="review-text">
+                                <span class="name">Gosha</span>
+                                <span>Force Events</span>
+                                <p>Cпасибо за работу! Все четко и быстро, футбы были сделаны за два дня, качество отличное, ценник приятный)Агонь! Будем обращаться</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-t-25 animated-fadeIn d12s">
+                <div class="review">
+                    <div class="border-review border1"></div>
+                    <div class="border-review border2"></div>
+                    <div class="border-review border3"></div>
+                    <div class="border-review border4"></div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="img-review">
+                                <img class="img-responsive" src="img/reviews/Artem.jpg"  alt="Отзыв">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                            <div class="review-text">
+                                <span class="name">Артём</span>
+                                <span>DMD</span>
+                                <p>Все в лучших традициях!!! Даже принял участие в нанесении принта. Rocket Print&Merch, Спасибо Вам </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 animated-fadeIn d14s">
+                <div class="review">
+                    <div class="border-review border1"></div>
+                    <div class="border-review border2"></div>
+                    <div class="border-review border3"></div>
+                    <div class="border-review border4"></div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="img-review">
+                                <img class="img-responsive" src="img/reviews/Thanos.jpg">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                            <div class="review-text">
+                                <span class="name">Thanos</span>
+                                <span>Porphyria</span>
+                                <p>Cпасибо, очень круто получилось, качество на вышке))) </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-t-25 animated-fadeIn d16s">
+                <div class="review">
+                    <div class="border-review border1"></div>
+                    <div class="border-review border2"></div>
+                    <div class="border-review border3"></div>
+                    <div class="border-review border4"></div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="img-review">
+                                <img class="img-responsive" src="img/reviews/Sergey.jpg">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                            <div class="review-text">
+                                <span class="name">Сергей</span>
+                                <span>Boardshop.by</span>
+                                <p>Спасибо ребятам! Тот самый случай, когда быстро, хорошо и дёшево ;)</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="footer-items">
+                    <div class="footer-icon text-center">
+                        <img src="img/viber.png" alt="viber">
+                    </div>
+                    <div class="footer-text">
+                        <div class="footer-text-big text-center">
+                            <a href="tel:+375255305428">
+                                <span>+375 (25) 530 54 28</span>
+                            </a>
+                        </div>
+                        <div class="footer-text-small text-center">
+                            <span>Работаем без выходных с 9:00 до 20:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="footer-items">
+                    <div class="footer-icon text-center">
+                        <img src="img/mail.png" alt="mail">
+                    </div>
+                    <div class="footer-text">
+                        <div class="footer-text-big text-center">
+                            <a href="mailto:rocketstudioprint@gmail.com">
+                                <span>rocketstudioprint@gmail.com</span>
+                            </a>
+                        </div>
+                        <div class="footer-text-small text-center">
+                            <span>Ответим на все интересующие вас вопросы</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="footer-items">
+                    <div class="footer-icon text-center">
+                        <img src="img/vk.png" alt="vk">
+                    </div>
+                    <div class="footer-text">
+                        <div class="footer-text-big text-center">
+                            <a href="http://vk.com/rocketprint">
+                                <span>/rocketprint</span>
+                            </a>
+                        </div>
+                        <div class="footer-text-small text-center">
+                            <span>Группа Vkontakte</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<!--<div id="vk_community_messages"></div>-->
+<!--<script type="text/javascript">-->
+    <!--var widget = VK.Widgets.CommunityMessages("vk_community_messages", 20003922);-->
+    <!--widget.stopTitleAnimation();-->
+    <!--widget.expand({-->
+        <!--welcomeScreen: 1,-->
+    <!--});-->
+<!--</script>-->
+
+<!--<script src="https://vk.com/js/api/openapi.js?146" type="text/javascript"></script>-->
+
+<link rel="stylesheet" href="css/main.min.css">
+<link rel="stylesheet" href="libs/fancy/jquery.fancybox.css" type="text/css" media="screen"/>
+
+
+<script src="js/scripts.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="libs/fancy/jquery.fancybox.js"></script>
+<script type="text/javascript" src="libs/fancy/jquery.fancybox.pack.js"></script>
+
+
+</body>
+</html>
