@@ -104,6 +104,10 @@ gulp.task('build', ['removedist', 'imagemin', 'css', 'js'], function() {
 	var buildSend = gulp.src([
 		'app/send/**/*',
 	]).pipe(gulp.dest('dist/send'));
+	
+	var buildpreloader = gulp.src([
+		'app/css/preloader.css',
+	]).pipe(gulp.dest('dist/css'));
 
 });
 
