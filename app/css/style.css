@@ -132,6 +132,7 @@ input{
     background-image: url("../img/main-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 800px;
 }
 
 .main-logo{
@@ -386,7 +387,7 @@ a.order-button:hover::after{
 
 .more{
     height: 18px;
-    width: 178px;
+    /*width: 178px;*/
     margin-top: 121px;
     vertical-align: middle;
 }
@@ -488,11 +489,11 @@ a.order-button:hover::after{
 .title-block{
     text-align: center;
     vertical-align: middle;
-    width: 408px;
+    /*width: 408px;*/
 }
 
 .title-block h2{
-    width: 408px;
+    /*width: 408px;*/
     margin-top: 82px;
     font-family:  BigStem-Regular, sans-serif;
     font-size: 36px;
@@ -503,7 +504,7 @@ a.order-button:hover::after{
 }
 
 .title-block h2:after{
-    margin-left: 23px;
+    margin-left: 18px;
     vertical-align: middle;
     display: inline-block;
     content: '';
@@ -513,7 +514,7 @@ a.order-button:hover::after{
 }
 
 .title-block h2:before{
-    margin-right: 23px;
+    margin-right: 18px;
     display: inline-block;
     content: '';
     width: 39px;
@@ -1085,6 +1086,10 @@ a.order-submit:hover{
 
 @media (max-width: 1366px){
 
+    .main{
+        min-height: 600px;
+    }
+
     .item-caption {
         padding-top: 0;
     }
@@ -1190,6 +1195,12 @@ a.order-submit:hover{
     .top-menu-box {
         padding: 190px;
     }
+
+    .main{
+        height: 800px;
+    }
+
+
 }
 
 @media (max-width: 1200px){
@@ -1257,7 +1268,7 @@ a.order-submit:hover{
     }
 
     .item-caption li span {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .item-caption ul {
@@ -1268,6 +1279,7 @@ a.order-submit:hover{
         font-size: 26px;
         line-height: 40px;
         letter-spacing: 4px;
+        white-space: nowrap;
     }
 }
 
@@ -1376,6 +1388,11 @@ a.order-submit:hover{
 
 
 @media (max-width: 767px){
+
+    .main {
+        height: auto;
+        padding-bottom: 60px;
+    }
 
     #top-order{
         padding-top: 20px;
@@ -1536,10 +1553,19 @@ a.order-submit:hover{
     .portfolio-caption {
         padding-top: 41px;
     }
+
+    .title-block h2 {
+        /*width: 360px;*/
+        font-size: 32px;
+    }
 }
 
 
 @media (max-width: 414px){
+
+    #why-us .title-block h2:after, #why-us .title-block h2:before{
+        display: none;
+    }
 
     .order-text-done {
         margin-left: 20px;
@@ -1585,13 +1611,13 @@ a.order-submit:hover{
     }
 
     .item h3 {
-        font-size: 43px;
+        font-size: 30px;
         line-height: 50px;
         letter-spacing: 4px;
     }
 
     .title-block {
-        width: 360px;
+        /*width: 360px;*/
     }
 
     .item-caption h4 {
@@ -1601,17 +1627,17 @@ a.order-submit:hover{
     }
 
     .title-block h2 {
-        width: 360px;
+        /*width: 360px;*/
         font-size: 32px;
     }
 
     .item-caption p {
-        font-size: 15px;
+        font-size: 14px;
         margin: 0 30px 24px 30px;
     }
 
     .item-caption li span {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #top-order .menu-cont{
@@ -1655,7 +1681,7 @@ a.order-submit:hover{
     }
 
     .title-block h2 {
-        width: 350px;
+        /*width: 350px;*/
         font-size: 31px;
     }
 
@@ -1712,11 +1738,11 @@ a.order-submit:hover{
     }
 
     .title-block {
-        width: 350px;
+        /*width: 350px;*/
     }
 
     .title-block h2 {
-        width: 330px;
+        /*width: 330px;*/
         font-size: 28px;
     }
 
@@ -1766,11 +1792,11 @@ a.order-submit:hover{
     }
 
     .title-block {
-        width: 300px;
+        /*width: 300px;*/
     }
 
     .title-block h2 {
-        width: 300px;
+        /*width: 300px;*/
         font-size: 23px;
     }
 
