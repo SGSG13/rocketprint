@@ -1,6 +1,6 @@
 <?php
 
-$sendto   = "mesa5150@gmail.com";
+$sendto   = "mesa5150@gmail.com, rocketstudioprint@gmail.com, pinrocketstudioprint@gmail.com";
 
 $name = trim($_POST['name']); // сохраняем в переменную данные полученные из поля c телефонным номером
 $phone = trim($_POST['phone']);

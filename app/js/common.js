@@ -16,32 +16,32 @@ $(document).ready(function() {
     });
 
     // Открыть модальное окно меню по клику на иконку
-    $('.nav-button').on('click', function () {
-        $('#top-menu').addClass('active');
-        $('body').addClass('modal-open');
-    });
+    openModal('.nav-button');
 
     // Открыть модальное окно меню по клику на текст
-    $('.menu-text').on('click', function () {
-        $('#top-menu').addClass('active');
-        $('body').addClass('modal-open');
-    });
+    openModal('.menu-text');
+
+    function openModal (elem) {
+        $(elem).on('click', function () {
+            $('#top-menu').addClass('active');
+            $('body').addClass('modal-open');
+        });
+    }
 
     // Закрыть меню
-    $('.closed-menu').on('click', function () {
-        $('.top-menu-box').removeClass('active');
-        setTimeout(function() {
-            $('body').removeClass('modal-open');
-        }, 1500);
-    });
+    closeModal('.closed-menu');
 
     // Закрыть модальное окно
-    $('.closed-modal').on('click', function () {
-        $('.top-menu-box').removeClass('active');
-        setTimeout(function() {
-            $('body').removeClass('modal-open');
-        }, 1300);
-    });
+    closeModal('.closed-modal');
+
+    function closeModal (elem) {
+        $(elem).on('click', function () {
+            $('.top-menu-box').removeClass('active');
+            setTimeout(function() {
+                $('body').removeClass('modal-open');
+            }, 200);
+        });
+    }
 
     // Скрол к якорю
     $('.menu-to').on("click", function(e){
